@@ -1,6 +1,6 @@
 /*
 
-You are given an array of integeres in which each subsequent valur is not less than the previous value.Write a fuunction that takes this array as an input and returns a new array with the squares of each number sorted in ascending order
+You are given an array of integeres in which each subsequent value is not less than the previous value.Write a fuunction that takes this array as an input and returns a new array with the squares of each number sorted in ascending order
 
 clarifying question 
 
