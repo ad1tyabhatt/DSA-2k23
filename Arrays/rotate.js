@@ -1,3 +1,7 @@
+//* Given an array, rotate the array to the right by k steps, where k is a non-negative
+//
+
+
 //! my code
 // function rotate(arr,k){
 //     // return arr.slice(arr.length-k).arr()
@@ -7,7 +11,7 @@
 
 //! brute force
 
-/*
+/*[]
 function rotateArray(arr,k){
     const length = arr.length;
     k=k%length;

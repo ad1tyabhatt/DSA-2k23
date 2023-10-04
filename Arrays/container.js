@@ -41,7 +41,7 @@ const maxArea = function(array){
         area = Math.max(area,newArea);
         // if(array[i]<array[j]) i++;
         // else j--;
-        (array[i]<array[j])?i++:j--;
+        (array[i]<array[j])?i++:j--; 
     }
     return area;
 }
