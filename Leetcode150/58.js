@@ -13,5 +13,13 @@ var lengthOfLastWord = function (s) {
    return cnt;
 };
 
+var alterMethod = function (s){
+   s = s.trim();
+   s = s.split(" ")
+   return s[s.length-1].length
+}
+
+
 let test = " I am Aditya BHatt ";
+console.log(alterMethod(test))
 console.log(lengthOfLastWord(test));
