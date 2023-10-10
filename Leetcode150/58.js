@@ -1,3 +1,5 @@
+//& Length of lengthOfLastWord
+
 var lengthOfLastWord = function (s) {
    var cnt = 0;
    for (var i = s.length - 1; i >= 0; i--) {
