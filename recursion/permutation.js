@@ -15,7 +15,7 @@ function allPermutation(nums){
             //recursive
             helper(nums,i+1);
             //swap i,j 
-            [nums[i],nums[j]] = [nums[j],nums[i]];
+            [nums[i],nums[j]] = [nums[j],nums[i]]; 
         }
     }
     helper(nums,0);
